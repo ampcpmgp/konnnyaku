@@ -1,0 +1,15 @@
+{
+  "name": "konnnyaku",
+  "version": "1.0.0",
+  "description": "Google Chrome 翻訳機能向けのタグチェンジャーです。",
+  "main": "konnnyaku.js",
+  "dependencies": {
+    "bookmarklet": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
