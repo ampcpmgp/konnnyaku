@@ -16,11 +16,11 @@ Google Chrome 翻訳機能向けのタグチェンジャー konnnyaku (蒟蒻) �
 
  https://github.com/kt3k/kocha 
 
-![image-20200303151236011](C:\Users\ampcp\AppData\Roaming\Typora\typora-user-images\image-20200303151236011.png)
+![image-20200303151236011](./images/image-20200303151236011.png)
 
 これを普通に翻訳すると、、、
 
-![image-20200303151356905](C:\Users\ampcp\AppData\Roaming\Typora\typora-user-images\image-20200303151356905.png)
+![image-20200303151356905](./images/image-20200303151356905.png)
 
 あらま！コードの中身が翻訳されてしまいました。最初の文も全く分からないですね。
 
@@ -28,7 +28,7 @@ Google Chrome 翻訳機能向けのタグチェンジャー konnnyaku (蒟蒻) �
 
 そこで蒟蒻を使うと・・？
 
-![image-20200303151650643](C:\Users\ampcp\AppData\Roaming\Typora\typora-user-images\image-20200303151650643.png)
+![image-20200303151650643](./images/image-20200303151650643.png)
 
 最初の文が読めるようになってます！素晴らしい👏
 
