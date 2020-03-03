@@ -6,13 +6,11 @@ const bookmarklet = execSync(
   'npx bookmarklet konnnyaku.js', {encoding: 'utf-8'}
   ).trim()
 
-const markdown = fs
-  .readFileSync('./README.md', {encoding:'utf-8'})
+const html = fs
+  .readFileSync('./index.html', {encoding:'utf-8'})
   .replace(/<!-- Bookmarklet Start -->[\s\S]*?<!-- Bookmarklet End -->/g,
-    `
-<!-- Bookmarklet Start -->  
+    `<!-- Bookmarklet Start -->  
 <a href='${bookmarklet}'>蒟蒻v${version}</a>
-<!-- Bookmarklet End -->
-`)
+<!-- Bookmarklet End -->`)
 
-fs.writeFileSync('./README.md', markdown)
+fs.writeFileSync('./index.html', html)
