@@ -5,6 +5,9 @@ Google Chrome 翻訳機能向けのタグチェンジャー konnnyaku (蒟蒻) �
 
 <!-- Bookmarklet Start -->  
 <a href='javascript:(function()%7B%22use%20strict%22%3BArray.from(document.querySelectorAll(%22pre%22)).filter(function(r)%7Breturn%20r.innerHTML.match(%2F%3C.*%3E%2F)%7C%7Cr.innerHTML.match(%2F%5Cn%2F)%7D).forEach(function(r)%7Breturn%20r.outerHTML%3D%22%3Ccode%3E%22%2Br.outerHTML%2B%22%3C%2Fcode%3E%22%7D)%2CArray.from(document.querySelectorAll(%22pre.geist-overflow-scroll-y%22)).forEach(function(r)%7Breturn%20r.outerHTML%3D%22%3Ccode%3E%22%2Br.outerHTML%2B%22%3C%2Fcode%3E%22%7D)%2CArray.from(document.querySelectorAll(%22code%2C%20.editor-wrapper%22)).filter(function(r)%7Breturn!r.innerHTML.match(%2F%3C.*%3E%2F)%7D).forEach(function(r)%7Breturn%20r.outerHTML%3Dr.outerHTML.replace(%2Fcode%2Fg%2C%22span%22)%7D)%3B%7D)()'>蒟蒻v1.0.0</a>
+
+
+[test](javascript:(function(\)%7B%22use%20strict%22%3BArray.fro\(document.querySelectorAll(%22pre%22\)\).filter(function(r\)%7Breturn%20r.innerHTML.match(%2F%3C.*%3E%2F\)%7C%7Cr.innerHTML.matc\(%2F%5Cn%2F\)%7D\).forEach(function(r\)%7Breturn%20r.outerHTML%3D%22%3Ccode%3E%22%2Br.outerHTML%2B%22%3C%2Fcode%3E%22%7D\)%2CArray.from(document.querySelectorAll(%22pre.geist-overflow-scroll-y%22\)\).forEach(function(\r)%7Breturn%20r.outerHTML%3D%22%3Ccode%3E%22%2Br.outerHTML%2B%22%3C%2Fcode%3E%22%7D\)%2CArray.from(document.querySelectorAll(%22code%2C%20.editor-wrapper%22\)\).filter(function(\r)%7Breturn!r.innerHTML.match(%2F%3C.*%3E%2F\)%7D\).forEach(function(\r)%7Breturn%20r.outerHTML%3Dr.outerHTML.replac\(%2Fcode%2Fg%2C%22span%2\2)%7D\)%3B%7D\)(\)\)
 <!-- Bookmarklet End -->
 
 
