@@ -2,7 +2,7 @@
 
 Google Chrome 翻訳機能向けのタグチェンジャー konnnyaku (蒟蒻) です。
 
-TODO: Bookmarklet置き場はこちら。
+Bookmarklet置き場は[こちら](https://ampcpmgp.github.io/konnnyaku/)。
 
 ## どういうものか
 
@@ -36,12 +36,13 @@ Chrome では　`code` タグに囲まれていると、翻訳をスキップす
 
 以下のページにある Bookmarklet をご利用ください。対象のページで実行後、翻訳を起動してください。
 
-TODO: Bookmarklet置き場はこちら。
+Bookmarklet置き場は[こちら](https://ampcpmgp.github.io/konnnyaku/)。
 
 
 ## 注意点
 
-上手く動かないページもよくあります。仮想スクロールを使っていたり、汎用化しにくいタグを使っているページなどは対応出来ていません。
+上手く動かないページもよくあります。  
+仮想スクロールを使っていたり、汎用化しにくいタグを使っているページなどは対応出来ていません。
 
 
 # Development
