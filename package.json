@@ -4,7 +4,7 @@
   "description": "Google Chrome 翻訳機能向けのタグチェンジャーです。",
   "main": "konnnyaku.js",
   "dependencies": {
-    "bookmarklet": "^1.0.4"
+    "bookmarklet": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
